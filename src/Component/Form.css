@@ -1,14 +1,29 @@
-.new-form label,
-.new-form input {
+.new-form label {
   display: block;
   text-align: left;
   width: 100%;
-  /* margin: 10px auto; */
+  margin: 10px auto;
   /* margin: auto; */
-  /* padding: 3px; */
+  padding: 5px;
   box-sizing: border-box;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
-.new-form p {
+.new-form input {
+  font-size: 1em;
+  display: block;
   text-align: left;
+  width: 100%;
+  margin: 10px auto;
+  /* margin: auto; */
+  padding: 5px;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  background: lightseagreen;
+}
+.new-form button {
+  margin: 10px;
 }

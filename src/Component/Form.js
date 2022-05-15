@@ -48,19 +48,10 @@ export default function NewForm() {
           value={dob}
         />
       </label>
-      <br />
-      <button>Submit</button>
-      <p>First-name - {firstName}</p>
-      <br />
-      <p>Last-name- {lastName}</p>
-      <br />
-      <p>E-mail - {email}</p>
-      <br />
-      <p>DOB- {dob}</p>
-      <br />
-      <button onClick={resetForm}>Reset</button>
-      <br />
-      <br />
+      <p>
+        <button>Submit</button>
+        <button onClick={resetForm}>Reset</button>
+      </p>
     </form>
   );
 }
