@@ -1,0 +1,14 @@
+.new-form label,
+.new-form input {
+  display: block;
+  text-align: left;
+  width: 100%;
+  /* margin: 10px auto; */
+  /* margin: auto; */
+  /* padding: 3px; */
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+.new-form p {
+  text-align: left;
+}
